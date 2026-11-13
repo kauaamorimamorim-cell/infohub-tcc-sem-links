@@ -10,9 +10,9 @@
        Ajuste a tag <title> e a <meta description> para o nome do seu setor.
        Exemplo: "Achados e Perdidos — InfoHub FAMINAS"
        ==================================================================== -->
-  <title>Setor: [Nome do Setor] — InfoHub FAMINAS</title>
+  <title>TCC — Trabalho de Conclusão de Curso — InfoHub FAMINAS</title>
   <meta name="description"
-    content="Canal de autoatendimento institucional desenvolvido pelos discentes de Análise e Desenvolvimento de Sistemas (ADS) na disciplina de Engenharia de Software da FAMINAS." />
+    content="Guia de autoatendimento sobre o TCC (Trabalho de Conclusão de Curso): envio, banca, prazos, manual, repositório e dúvidas frequentes. Canal desenvolvido pelos discentes de Análise e Desenvolvimento de Sistemas (ADS) na disciplina de Engenharia de Software da FAMINAS." />
 
   <link rel="icon" type="image/png" href="./assets/images/logo-faminas.png" />
 
@@ -43,9 +43,9 @@
   <header id="main-header" class="site-header">
     <div class="header-container container">
       <div class="brand-wrapper">
-        <a href="https://infohub-faminas.vercel.app" class="brand-link" aria-label="InfoHub FAMINAS - Página Inicial">
+        <span class="brand-link">
           <img src="./assets/images/logo-faminas.png" alt="Logomarca Oficial FAMINAS" class="brand-logo" />
-        </a>
+        </span>
         <div class="brand-divider" aria-hidden="true"></div>
         <div class="brand-meta">
           <span class="brand-title">InfoHub FAMINAS</span>
@@ -53,28 +53,12 @@
         </div>
       </div>
 
-      <div class="header-actions">
-        <!-- Botão oficial de retorno ao Hub Principal -->
-        <a 
-          href="https://infohub-faminas.vercel.app" 
-          class="btn btn-primary-highlight btn-portal" 
-          id="link-retornar-hub"
-          aria-label="Retornar à página inicial do InfoHub FAMINAS"
-        >
-          <span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>
-          <span>Retornar ao InfoHub</span>
-        </a>
-      </div>
+      
     </div>
   </header>
 
   <!-- Área Principal da Solução Setorial -->
   <main id="main-content">
-    <!-- ====================================================================
-         SEÇÃO HERO INSTITUCIONAL
-         ESTUDANTES: Ajuste APENAS o Título do Setor e a Descrição do Setor.
-         As tags institucionais e badges não devem ser removidas.
-         ==================================================================== -->
     <section id="hero" class="hero-section" aria-labelledby="hero-heading">
       <div class="hero-content container">
         <div class="hero-tag">
@@ -82,14 +66,12 @@
           Engenharia de Software • ADS FAMINAS
         </div>
 
-        <!-- [EDITÁVEL]: Nome do Setor -->
         <h1 id="hero-heading" class="hero-title">
-          Setor: <span>[Nome do Setor Institucional]</span>
+          Setor: <span>TCC — Trabalho de Conclusão de Curso</span>
         </h1>
 
-        <!-- [EDITÁVEL]: Descrição e Propósito do Setor apurados na entrevista -->
         <p class="hero-description">
-          Canal unificado de autoatendimento, mapeamento de processos oficiais, orientações normativas e canais de contato homologados junto à coordenação e gestão setorial da FAMINAS.
+          Tudo o que você precisa para concluir o seu TCC: o que é o trabalho, onde enviar e como agendar a banca, prazos, manual e modelos oficiais, depósito no repositório institucional e os cuidados para não atrasar a sua formatura.
         </p>
 
         <div class="hero-badges-group" aria-label="Informações do autoatendimento">
@@ -109,18 +91,9 @@
       </div>
     </section>
 
-    <!-- ====================================================================
-         ÁREA CENTRAL LIVRE PARA OS ESTUDANTES (FEATURES DO SETOR)
-         Vocês têm total liberdade para estruturar esta área central conforme
-         os requisitos, fluxos e necessidades identificados nas entrevistas.
-         
-         REQUISITO: Utilize HTML5 semântico (section, article, div, ul, details).
-         Para criar estilos novos, edite o arquivo "css/custom.css".
-         ==================================================================== -->
     <section id="features" class="sector-content-section" aria-labelledby="sector-content-heading">
       <div class="container">
-        
-        <!-- Cabeçalho da Seção Central -->
+
         <div class="sector-section-header">
           <div class="sector-section-tag">
             <span class="material-symbols-outlined" aria-hidden="true">help_center</span>
@@ -130,19 +103,44 @@
             Como Podemos Ajudar Você Hoje?
           </h2>
           <p class="sector-section-subtitle">
-            Consulte as principais solicitações, prazos e canais de atendimento direto mapeados pela equipe discente.
+            Consulte as principais orientações sobre o TCC, da escolha do tema ao depósito da versão final.
           </p>
         </div>
 
-        <!-- EXEMPLO DE BLOCO 1: Grid de Tópicos / Serviços Frequentes -->
+        <!-- 1. O que é o TCC -->
+        <article id="o-que-e" class="info-panel">
+          <h3 class="info-panel-title">
+            <span class="material-symbols-outlined" aria-hidden="true">menu_book</span>
+            O que é o TCC?
+          </h3>
+          <p>
+            O Trabalho de Conclusão de Curso (TCC) é uma etapa fundamental da formação acadêmica, pois permite que você aprofunde seus conhecimentos sobre um tema relacionado à sua área de estudo.
+          </p>
+          <p>
+            Para desenvolvê-lo, é necessário realizar pesquisas, consultar referências bibliográficas e organizar as informações de maneira estruturada, apresentando objetivos, fundamentação teórica, metodologia e resultados.
+          </p>
+          <p>
+            Além de avaliar os conhecimentos adquiridos ao longo da graduação, o TCC contribui para o desenvolvimento do pensamento crítico, da capacidade de análise, da pesquisa científica e da comunicação clara e fundamentada das ideias.
+          </p>
+          <h4 class="info-subtitle">Modalidades e requisitos</h4>
+          <ul class="info-list">
+            <li><strong>Modalidades:</strong> monografia ou artigo científico.</li>
+            <li><strong>Quem pode fazer:</strong> alunos matriculados na disciplina de TCC; o trabalho pode ser individual ou em dupla.</li>
+            <li><strong>Quando protocolar:</strong> para protocolar o projeto ou solicitar a defesa, o aluno deve estar matriculado no penúltimo período do curso.</li>
+            <li><strong>Orientador:</strong> docente da FAMINAS com formação específica para orientação, com tema ligado à área do seu curso.</li>
+            <li><strong>Idioma e normas:</strong> texto em português, seguindo as normas da ABNT e o Manual de Normalização da FAMINAS.</li>
+          </ul>
+        </article>
+
+        <!-- Cards de acesso rápido -->
         <div class="sector-grid">
           <article class="sector-card">
             <div class="sector-card-icon" aria-hidden="true">
-              <span class="material-symbols-outlined">assignment</span>
+              <span class="material-symbols-outlined">event_note</span>
             </div>
-            <h3 class="sector-card-title">Orientações e Normas</h3>
+            <h3 class="sector-card-title">Envio e Banca</h3>
             <p class="sector-card-text">
-              Consulte a regulamentação oficial, formulários obrigatórios e o passo a passo para abertura formal de chamados.
+              Veja como submeter o trabalho e solicitar o agendamento da banca, seguindo os procedimentos da instituição.
             </p>
             <a href="#fluxo" class="btn btn-outline-light" style="color: var(--color-primary-navy) !important; border-color: var(--color-border);">
               Ver Passo a Passo
@@ -155,93 +153,309 @@
             </div>
             <h3 class="sector-card-title">Prazos e Calendário</h3>
             <p class="sector-card-text">
-              Fique atento às datas-limite para envio de requerimentos, renovações e homologação de documentos institucionais.
+              Acompanhe as datas de entrega para avaliação, período de apresentações e envio da versão final corrigida.
             </p>
             <a href="#prazos" class="btn btn-outline-light" style="color: var(--color-primary-navy) !important; border-color: var(--color-border);">
-              Consultar Datas
+              Consultar Prazos
             </a>
           </article>
 
           <article class="sector-card">
             <div class="sector-card-icon" aria-hidden="true">
-              <span class="material-symbols-outlined">contact_phone</span>
+              <span class="material-symbols-outlined">description</span>
             </div>
-            <h3 class="sector-card-title">Canais de Atendimento</h3>
+            <h3 class="sector-card-title">Manual e Modelos</h3>
             <p class="sector-card-text">
-              Localização física no campus, horários de funcionamento presencial, telefone, e-mail institucional e WhatsApp oficial.
+              Estrutura dos capítulos, citações, referências e o modelo oficial de formatação do TCC.
             </p>
-            <a href="#contato" class="btn btn-outline-light" style="color: var(--color-primary-navy) !important; border-color: var(--color-border);">
-              Ver Contatos
+            <a href="#manual" class="btn btn-outline-light" style="color: var(--color-primary-navy) !important; border-color: var(--color-border);">
+              Ver Orientações
             </a>
           </article>
         </div>
 
-        <!-- EXEMPLO DE BLOCO 2: Fluxo Passo a Passo -->
-        <div id="fluxo" style="margin-top: 3rem; background: var(--color-bg-card); padding: 2rem; border-radius: var(--radius-lg); border: 1px solid var(--color-border);">
-          <h3 style="font-size: 1.35rem; color: var(--color-primary-navy); margin-bottom: 0.5rem;">
-            Passo a Passo do Processo Setorial
+        <!-- 2. Onde enviar e como agendar a banca -->
+        <div id="fluxo" class="info-panel">
+          <h3 class="info-panel-title">
+            <span class="material-symbols-outlined" aria-hidden="true">upload_file</span>
+            Onde enviar e como agendar a banca?
           </h3>
-          <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;">
-            Siga as etapas abaixo para protocolar ou resolver sua demanda com rapidez:
+          <p>
+            A submissão do projeto e do trabalho final é feita por protocolo, conforme o Calendário Educacional da instituição, e a banca é indicada pelo Coordenador de Curso. Veja o caminho completo:
           </p>
 
           <ol class="process-steps-list">
             <li class="process-step-item">
               <span class="step-number">1</span>
               <div class="step-content">
-                <strong>Reunir a Documentação Necessária</strong>
-                <p>Verifique com antecedência os comprovantes exigidos e tenha em mãos seu número de matrícula institucional.</p>
+                <strong>Matricular-se no TCC e escolher o orientador</strong>
+                <p>Faça a matrícula na disciplina de TCC e combine a orientação com um docente da FAMINAS da área do seu curso.</p>
               </div>
             </li>
             <li class="process-step-item">
               <span class="step-number">2</span>
               <div class="step-content">
-                <strong>Protocolar o Requerimento</strong>
-                <p>Abra o requerimento pelo portal acadêmico ou compareça presencialmente ao setor nos horários indicados.</p>
+                <strong>Protocolar o projeto</strong>
+                <p>Envie o formulário próprio, pelo protocolo online, à Coordenação de Curso na data do calendário acadêmico. Ele traz o título (ainda que provisório), objetivos, metodologia e o nome do orientador, que assina concordando.</p>
               </div>
             </li>
             <li class="process-step-item">
               <span class="step-number">3</span>
               <div class="step-content">
-                <strong>Acompanhar o Parecer e Retirada</strong>
-                <p>Acompanhe o status do chamado e receba a confirmação ou retirada do documento protocolado.</p>
+                <strong>Aguardar a aprovação do projeto</strong>
+                <p>O Coordenador de Curso encaminha o projeto à Coordenadoria de Pesquisa em até 5 dias. Você só pode iniciar a execução depois da aprovação e, se for o caso, do Comitê de Ética.</p>
+              </div>
+            </li>
+            <li class="process-step-item">
+              <span class="step-number">4</span>
+              <div class="step-content">
+                <strong>Desenvolver o trabalho com acompanhamento</strong>
+                <p>Registre cada encontro na Ficha de Acompanhamento de Orientação. Ela deve ser entregue à Coordenação como condição para a defesa.</p>
+              </div>
+            </li>
+            <li class="process-step-item">
+              <span class="step-number">5</span>
+              <div class="step-content">
+                <strong>Solicitar a defesa e agendar a banca</strong>
+                <p>Protocole o trabalho final com requerimento próprio e o aval do orientador, no prazo do Calendário Educacional. O Coordenador tem 10 dias para deferir, indicando a banca, o horário e o local.</p>
+              </div>
+            </li>
+            <li class="process-step-item">
+              <span class="step-number">6</span>
+              <div class="step-content">
+                <strong>Defender, corrigir e depositar</strong>
+                <p>Apresente o trabalho à banca, faça as correções solicitadas e, se atingir a nota exigida, envie a versão final ao repositório.</p>
               </div>
             </li>
           </ol>
         </div>
 
-        <!-- EXEMPLO DE BLOCO 3: Perguntas Frequentes (FAQ) -->
-        <div style="margin-top: 3rem;">
+        <!-- Banca e avaliação -->
+        <article id="banca" class="info-panel">
+          <h3 class="info-panel-title">
+            <span class="material-symbols-outlined" aria-hidden="true">gavel</span>
+            Banca, defesa e avaliação
+          </h3>
+          <ul class="info-list">
+            <li><strong>Banca:</strong> 3 docentes (o orientador, que preside, e outros 2 membros). Pode haver um convidado externo.</li>
+            <li><strong>Vias:</strong> o trabalho é apresentado em 3 vias, incluindo a declaração de aprovação ou dispensa do Comitê de Ética, quando houver.</li>
+            <li><strong>Defesa oral:</strong> até 20 minutos de apresentação, seguidos da arguição pela banca. A sessão é pública.</li>
+            <li><strong>Avaliação:</strong> ficha com 10 critérios de 10 pontos cada (organização, redação, análise, conclusão, segurança, postura etc.), somando 100.</li>
+            <li><strong>Resultado:</strong> aprovado com nota igual ou superior a 70; abaixo disso, reprovado.</li>
+            <li><strong>Nota:</strong> o Coordenador de Curso defere e lança a nota no Portal Educacional.</li>
+          </ul>
+        </article>
+
+        <!-- 3. Prazos -->
+        <article id="prazos" class="info-panel">
+          <h3 class="info-panel-title">
+            <span class="material-symbols-outlined" aria-hidden="true">calendar_month</span>
+            Prazos e calendário acadêmico
+          </h3>
+          <p>
+            Acompanhe o Calendário Educacional e fique atento aos prazos de cada etapa. Quem não cumprir os prazos ou deixar de apresentar a defesa é considerado reprovado.
+          </p>
+          <ul class="deadline-list">
+            <li><span class="deadline-when">Data do calendário</span><span>Protocolo do projeto de TCC na Coordenação de Curso.</span></li>
+            <li><span class="deadline-when">Até 5 dias</span><span>Coordenador de Curso encaminha o projeto à Coordenadoria de Pesquisa. O parecer de dispensa do Comitê de Ética também sai em até 5 dias.</span></li>
+            <li><span class="deadline-when">Data do calendário</span><span>Protocolo do trabalho final com requerimento e aval do orientador.</span></li>
+            <li><span class="deadline-when">Até 10 dias</span><span>Coordenador de Curso defere a defesa, com banca, horário e local.</span></li>
+            <li><span class="deadline-when">Até 7 dias após a defesa</span><span>Envio da Folha de Aprovação para o repositório institucional.</span></li>
+          </ul>
+          <p class="info-note">
+            As datas exatas de cada semestre ficam no Calendário Educacional da FAMINAS. Confirme com a Coordenação do seu curso.
+          </p>
+        </article>
+
+        <!-- 4. Manual -->
+        <article id="manual" class="info-panel">
+          <h3 class="info-panel-title">
+            <span class="material-symbols-outlined" aria-hidden="true">article</span>
+            Manual e modelos oficiais
+          </h3>
+          <p>
+            Consulte o Manual de TCC da instituição e o Manual de Normalização (8ª edição, 2025), que trazem a estrutura dos capítulos, citações, referências e demais normas da ABNT. O Manual de Normalização está disponível no site, no Repositório, na Sala Biblioteca do Moodle e no acervo online da biblioteca.
+          </p>
+          <p class="info-links">
+            <a class="btn btn-primary-highlight" href="https://www2.faminas.edu.br/wp-content/uploads/2024/06/Manual-Trabalho-de-Conclusao-de-Cursos-1.pdf" target="_blank" rel="noopener noreferrer">
+              <span class="material-symbols-outlined" aria-hidden="true">picture_as_pdf</span>
+              <span>Manual de TCC (PDF)</span>
+            </a>
+            <a class="btn btn-outline-light" style="color: var(--color-primary-navy) !important; border-color: var(--color-border);" href="https://bibliotecadigital.faminas.edu.br/" target="_blank" rel="noopener noreferrer">
+              <span class="material-symbols-outlined" aria-hidden="true">local_library</span>
+              <span>Biblioteca Digital</span>
+            </a>
+          </p>
+          <h4 class="info-subtitle">Formulários do manual</h4>
+          <ul class="info-list">
+            <li>Termo de Compromisso de TCC (Anexo 1)</li>
+            <li>Ficha de Acompanhamento de Orientação (Anexo 2)</li>
+            <li>Ficha de Avaliação do TCC (Anexo 3)</li>
+            <li>Nota Final do TCC (Anexo 4)</li>
+          </ul>
+        </article>
+
+        <!-- 5. Repositório -->
+        <article id="repositorio" class="info-panel">
+          <h3 class="info-panel-title">
+            <span class="material-symbols-outlined" aria-hidden="true">inventory_2</span>
+            Depósito no repositório institucional
+          </h3>
+          <p>
+            Depois da aprovação pela banca e das correções, providencie a versão definitiva para a biblioteca e o Repositório FAMINAS. Atenção às regras:
+          </p>
+          <ul class="info-list">
+            <li>Só são disponibilizados os trabalhos com <strong>nota igual ou superior a 85</strong>.</li>
+            <li>O arquivo deve seguir a última versão do Manual de Normalização.</li>
+            <li>A <strong>ficha catalográfica</strong> é gerada pelo sistema EDUCAHUB.</li>
+            <li>O arquivo deve conter o <strong>Termo de Autorização</strong> preenchido e assinado pelos autores (inclusive o orientador).</li>
+            <li>A <strong>Folha de Aprovação</strong>, com a nota do TCC, deve ser enviada em até 7 dias após a defesa.</li>
+          </ul>
+          <p>Protocole para a biblioteca, pelo portal: o TCC completo, o Termo de Autorização e a Folha de Aprovação.</p>
+        </article>
+
+        <!-- 6 e 7. Erros comuns e dica -->
+        <div class="sector-grid sector-grid-2">
+          <article class="info-panel info-panel-warning">
+            <h3 class="info-panel-title">
+              <span class="material-symbols-outlined" aria-hidden="true">warning</span>
+              Erros comuns e cuidados
+            </h3>
+            <ul class="info-list">
+              <li>Perder prazos ou faltar à defesa resulta em reprovação.</li>
+              <li>Pesquisa com seres humanos ou animais sem aprovação do CEP ou da CEUA não é aceita.</li>
+              <li>Iniciar o trabalho antes da aprovação do projeto.</li>
+              <li>Usar formatação incorreta ou referências fora da ABNT.</li>
+              <li>Deixar de entregar o Termo de Autorização, a Folha de Aprovação ou outros documentos exigidos.</li>
+            </ul>
+            <p>Quem reprova no TCC cursa a disciplina em dependência no próximo período e não tem direito a exame complementar.</p>
+          </article>
+
+          <article class="info-panel info-panel-tip">
+            <h3 class="info-panel-title">
+              <span class="material-symbols-outlined" aria-hidden="true">lightbulb</span>
+              Dica importante
+            </h3>
+            <p>
+              Organize seu trabalho com antecedência, mantenha contato frequente com seu orientador, revise todas as etapas da pesquisa e consulte as orientações oficiais da instituição.
+            </p>
+            <p>Um bom planejamento evita dificuldades e ajuda a entregar um trabalho acadêmico de qualidade.</p>
+          </article>
+        </div>
+
+        <!-- FAQ -->
+        <div id="faq" style="margin-top: 3rem;">
           <h3 style="font-size: 1.35rem; color: var(--color-primary-navy); margin-bottom: 1rem;">
             Dúvidas Frequentes do Setor
           </h3>
           <div class="faq-accordion">
             <details class="faq-item">
               <summary class="faq-summary">
-                <span>Qual é o prazo médio de resposta para solicitações deste setor?</span>
+                <span>O que é o TCC?</span>
                 <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
               </summary>
-              <div class="faq-content">
-                O prazo de análise institucional varia entre 2 a 5 dias úteis, dependendo da complexidade do requerimento e do calendário acadêmico vigente.
-              </div>
+              <div class="faq-content">É uma etapa fundamental da graduação em que você aprofunda um tema da sua área, com pesquisa, referências bibliográficas, objetivos, fundamentação teórica, metodologia e resultados.</div>
             </details>
             <details class="faq-item">
               <summary class="faq-summary">
-                <span>O atendimento presencial exige agendamento prévio?</span>
+                <span>Quais são as modalidades de TCC?</span>
                 <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
               </summary>
-              <div class="faq-content">
-                Para a maioria dos serviços o atendimento é por ordem de chegada na recepção do setor. Em períodos de pico de matrícula ou eventos especiais, recomenda-se verificar aviso oficial.
-              </div>
+              <div class="faq-content">Monografia e artigo científico. Os formatos estão detalhados no Manual de Normalização.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary">
+                <span>Posso fazer o TCC em dupla?</span>
+                <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+              </summary>
+              <div class="faq-content">Sim. O trabalho pode ser individual ou em grupos de 2 alunos, formados durante a preparação do projeto.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary">
+                <span>Quando posso protocolar o projeto ou pedir a defesa?</span>
+                <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+              </summary>
+              <div class="faq-content">Quando estiver matriculado no penúltimo período do curso e na disciplina de TCC, nas datas do Calendário Educacional.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary">
+                <span>Onde envio o TCC e como agendo a banca?</span>
+                <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+              </summary>
+              <div class="faq-content">O trabalho final é protocolado, com requerimento e aval do orientador, no protocolo online ou no Setor de Protocolo, conforme o Calendário Educacional. O Coordenador de Curso tem 10 dias para deferir a defesa e indicar banca, horário e local.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary">
+                <span>Como é composta a banca e quanto tempo dura a apresentação?</span>
+                <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+              </summary>
+              <div class="faq-content">A banca tem 3 docentes: o orientador, que preside, e mais 2 membros, podendo haver um convidado externo. A apresentação dura até 20 minutos, seguida da arguição, e é pública.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary">
+                <span>Qual a nota mínima para aprovação?</span>
+                <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+              </summary>
+              <div class="faq-content">70 pontos. Se reprovar, você cursa o TCC em dependência no próximo período e não pode pedir exame complementar.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary">
+                <span>Preciso de aprovação do Comitê de Ética?</span>
+                <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+              </summary>
+              <div class="faq-content">Se a pesquisa envolver seres humanos ou animais, sim: o número do CEP ou da CEUA deve constar na metodologia. Sem a aprovação, o TCC não é aceito.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary">
+                <span>Quais prazos devo acompanhar?</span>
+                <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+              </summary>
+              <div class="faq-content">Os do Calendário Educacional (protocolo do projeto e do trabalho final) e os prazos fixos: 5 dias para o encaminhamento do projeto, 10 dias para deferir a defesa e 7 dias após a defesa para enviar a Folha de Aprovação ao repositório.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary">
+                <span>Onde encontro o manual e o modelo de formatação?</span>
+                <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+              </summary>
+              <div class="faq-content">No Manual de TCC e no Manual de Normalização (8ª ed., 2025), disponíveis no site, no Repositório, na Sala Biblioteca do Moodle e no acervo online da biblioteca.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary">
+                <span>Meu TCC vai para o repositório institucional?</span>
+                <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+              </summary>
+              <div class="faq-content">Somente se a nota for igual ou superior a 85. Envie o TCC completo, o Termo de Autorização assinado e a Folha de Aprovação em até 7 dias após a defesa.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary">
+                <span>Como consigo a ficha catalográfica?</span>
+                <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+              </summary>
+              <div class="faq-content">Ela é gerada pelo sistema EDUCAHUB, com orientação da biblioteca.</div>
             </details>
           </div>
         </div>
 
-        <!-- EXEMPLO DE BLOCO 4: Banner de Contato Oficial -->
+        <!-- Equipe responsável (nomes dos alunos) -->
+        <section id="equipe" class="team-block" aria-labelledby="team-heading">
+          <h3 id="team-heading" class="team-title">
+            <span class="material-symbols-outlined" aria-hidden="true">groups</span>
+            Equipe Responsável
+          </h3>
+          <p class="team-text">Página desenvolvida pelos discentes de ADS na disciplina de Engenharia de Software.</p>
+          <ul class="team-list">
+            <li>Erick da Silva Mantuani</li>
+            <li>Heitor Francisco Ribeiro</li>
+            <li>Kaua Amorim de Oliveira</li>
+            <li>João Pedro dos Santos Manhães</li>
+          </ul>
+        </section>
+
+        <!-- Contato -->
         <div id="contato" class="contact-banner">
           <div class="contact-banner-meta">
             <h3>Precisa de Atendimento com a Equipe do Setor?</h3>
-            <p>Atendimento presencial no campus FAMINAS • Segunda a Sexta: 08h às 21h</p>
+            <p>Consulte os canais oficiais e a coordenação responsável pelo TCC.</p>
           </div>
           <div class="contact-banner-actions">
             <a href="mailto:atendimento@faminas.edu.br" class="btn btn-outline-light">
@@ -275,14 +489,7 @@
         </p>
 
         <div class="footer-course-highlight">
-          <a 
-            href="https://www.unifaminas.edu.br/cursos/analise-e-desenvolvimento-de-sistemas" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            class="footer-course-card"
-            id="link-curso-ads"
-            aria-label="Conheça o curso de Análise e Desenvolvimento de Sistemas na UNIFAMINAS em nova janela"
-          >
+          <div class="footer-course-card" id="link-curso-ads">
             <div class="footer-course-icon" aria-hidden="true">
               <span class="material-symbols-outlined">school</span>
             </div>
@@ -290,8 +497,7 @@
               <span class="footer-course-label">Curso de Graduação</span>
               <strong class="footer-course-title">Análise e Desenvolvimento de Sistemas</strong>
             </div>
-            <span class="material-symbols-outlined footer-course-arrow" aria-hidden="true">open_in_new</span>
-          </a>
+          </div>
         </div>
       </div>
 
